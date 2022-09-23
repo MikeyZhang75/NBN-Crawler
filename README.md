@@ -4,7 +4,7 @@
 For me, internet speed (both download and upload speeds) is one of the main factors in my choice of property, so when I'm looking for properties, those that offer FTTP services are my priority. For example, when I am sifting through properties in the Melbourne CBD, entering addresses one by one to get their NBN service type is a very slow process, which prompted me to write this script.
 
 ## Get Started
-BeautifulSoup (bs4) is used to better format the code for the requested URLs as well as to more easily select and read the elements in the page, while cfscrape is just a library I often use when crawling to avoid any potential anti-crawlers.
+BeautifulSoup (bs4) is used to better format the code for the requested URLs as well as to more easily select and read the elements in the page, while cfscrape is a simple Python module to bypass Cloudflare's anti-bot page.
 ```
 pip install bs4
 pip install cfscrape
